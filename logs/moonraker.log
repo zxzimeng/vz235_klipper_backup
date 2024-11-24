@@ -5344,3 +5344,13 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYh3nWr16EXXlYl
 2024-11-24 18:43:44,689 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-11-24 18:43:44,981 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-11-24 18:43:45,705 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 18:49:44,022 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=------------------------jHt7plov2bwYyetqJRHWV9
+2024-11-24 18:49:48,455 [application.py:post()] - Processing Uploaded File: TH008.gcode
+2024-11-24 18:49:49,346 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-11-24 18:49:49,648 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "TH008.gcode") successfully finished
+2024-11-24 18:49:49,650 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
+2024-11-24 18:49:49,674 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 5653.76ms
+2024-11-24 18:49:49,771 [job_state.py:_status_update()] - Job Started: TH008.gcode
+2024-11-24 18:49:55,442 [websockets.py:on_close()] - Websocket Closed: ID: 281473127618976 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.43

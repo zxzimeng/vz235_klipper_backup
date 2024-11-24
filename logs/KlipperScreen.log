@@ -380,3 +380,10 @@ Y: {0.0, 190.0}
 2024-11-24 18:43:44,572 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
 2024-11-24 18:43:44,576 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/config
 2024-11-24 18:43:44,599 [screen.py:init_tempstore()] - Temperature store size: 1200
+2024-11-24 18:49:49,774 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-11-24 18:49:49,775 [printer.py:change_state()] - Adding callback for state: printing
+2024-11-24 18:49:49,800 [screen.py:_load_panel()] - Loading panel: job_status
+2024-11-24 18:49:50,099 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-11-24 18:49:50,110 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-11-24 18:49:50,131 [job_status.py:update_file_metadata()] - Update Metadata. File: TH008.gcode Size: 24950020
+2024-11-24 18:49:50,147 [job_status.py:show_file_thumbnail()] - TH008.gcode
