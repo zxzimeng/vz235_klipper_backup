@@ -6943,3 +6943,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywIVumozXdRsJVt
 2024-11-24 21:37:13,089 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.86.21
 2024-11-24 21:37:13,091 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.86.21
 2024-11-24 21:42:10,307 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-11-24 22:27:10,317 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.78
