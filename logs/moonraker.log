@@ -5220,3 +5220,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKepD4FCPZI1zke
 2024-11-24 17:40:48,735 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 4.34ms
 2024-11-24 17:40:48,736 [websockets.py:open()] - Websocket Opened: ID: 281473108800320, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
 2024-11-24 17:40:48,764 [websockets.py:_handle_identify()] - Websocket 281473108800320 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-24 17:41:45,695 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.01 seconds
+2024-11-24 17:41:46,713 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.01 seconds
