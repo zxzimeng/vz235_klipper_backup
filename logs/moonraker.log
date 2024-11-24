@@ -5505,3 +5505,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPS9azyM0iPIURR
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary37ESiR9SOOUVToBb
 2024-11-24 19:09:43,960 [application.py:post()] - Processing Uploaded File: start_Stop.cfg
 2024-11-24 19:09:43,970 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 36.99ms
+2024-11-24 19:10:56,298 [klippy_apis.py:pause_print()] - Requesting job pause...
