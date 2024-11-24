@@ -586,3 +586,14 @@ Y: {0.0, 190.0}
 2024-11-24 19:10:56,973 [screen.py:show_panel()] - Reinitializing panel
 2024-11-24 19:10:57,086 [screen.py:attach_panel()] - Current panel hierarchy: job_status > extrude
 2024-11-24 19:11:15,321 [screen.py:show_screensaver()] - Showing Screensaver
+2024-11-24 19:14:03,232 [printer.py:change_state()] - Changing state from 'paused' to 'ready'
+2024-11-24 19:14:03,232 [printer.py:change_state()] - Adding callback for state: ready
+2024-11-24 19:14:05,742 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-11-24 19:14:05,742 [printer.py:change_state()] - Adding callback for state: printing
+2024-11-24 19:14:05,747 [screen.py:close_screensaver()] - Closing Screensaver
+2024-11-24 19:14:05,782 [screen.py:wake_screen()] - Screen wake up
+2024-11-24 19:14:05,802 [screen.py:show_panel()] - Reinitializing panel
+2024-11-24 19:14:06,016 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-11-24 19:14:06,026 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-11-24 19:14:06,047 [job_status.py:update_file_metadata()] - Update Metadata. File: TH008.gcode Size: 24950020
+2024-11-24 19:14:06,060 [job_status.py:show_file_thumbnail()] - TH008.gcode
