@@ -5419,3 +5419,13 @@ CPU Temperature: 44.612
 2024-11-24 18:55:52,114 [websockets.py:_handle_identify()] - Websocket 281473145484192 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-11-24 18:55:52,873 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
 2024-11-24 18:55:58,404 [websockets.py:on_close()] - Websocket Closed: ID: 281473145484192 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.32
+2024-11-24 18:56:02,188 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 5.03ms
+2024-11-24 18:56:02,189 [websockets.py:open()] - Websocket Opened: ID: 281473109061888, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) BBL-Language/en Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko), Host Name: 192.168.1.79
+2024-11-24 18:56:02,217 [websockets.py:_handle_identify()] - Websocket 281473109061888 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-24 18:56:08,750 [websockets.py:on_close()] - Websocket Closed: ID: 281473109061888 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.57
+2024-11-24 18:56:29,206 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 4.65ms
+2024-11-24 18:56:29,207 [websockets.py:open()] - Websocket Opened: ID: 281473109063088, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (light) BBL-Language/en Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko), Host Name: 192.168.1.79
+2024-11-24 18:56:29,242 [websockets.py:_handle_identify()] - Websocket 281473109063088 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-24 18:56:35,553 [websockets.py:on_close()] - Websocket Closed: ID: 281473109063088 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.35
+2024-11-24 18:56:40,397 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
+2024-11-24 18:56:40,417 [job_state.py:_status_update()] - Job Started: TH008.gcode
