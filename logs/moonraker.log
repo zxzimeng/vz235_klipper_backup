@@ -5236,3 +5236,8 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKepD4FCPZI1zke
 2024-11-24 17:47:46,725 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 540.02 seconds
 2024-11-24 17:48:45,710 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 600.03 seconds
 2024-11-24 17:48:46,727 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 600.02 seconds
+2024-11-24 17:49:10,554 [websockets.py:on_close()] - Websocket Closed: ID: 281473108800320 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.80
+2024-11-24 17:49:45,713 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 660.03 seconds
+2024-11-24 17:49:46,729 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 660.02 seconds
+2024-11-24 17:50:45,715 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 720.03 seconds
+2024-11-24 17:50:46,731 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 720.02 seconds
