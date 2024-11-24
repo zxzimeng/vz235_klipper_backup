@@ -5513,3 +5513,7 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary37ESiR9SOOUVTo
 2024-11-24 19:31:06,203 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 4.37ms
 2024-11-24 19:31:06,204 [websockets.py:open()] - Websocket Opened: ID: 281473127574544, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
 2024-11-24 19:31:06,215 [websockets.py:_handle_identify()] - Websocket 281473127574544 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-24 19:35:31,897 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 6.80ms
+2024-11-24 19:35:31,898 [websockets.py:open()] - Websocket Opened: ID: 281473108134544, Proxied: True, User Agent: PrusaSlicer, Host Name: fastalpaca.local
+2024-11-24 19:35:31,949 [websockets.py:_handle_identify()] - Websocket 281473108134544 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-24 19:36:20,663 [klippy_apis.py:pause_print()] - Requesting job pause...

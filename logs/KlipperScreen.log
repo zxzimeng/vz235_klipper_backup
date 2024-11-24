@@ -597,3 +597,13 @@ Y: {0.0, 190.0}
 2024-11-24 19:14:06,026 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
 2024-11-24 19:14:06,047 [job_status.py:update_file_metadata()] - Update Metadata. File: TH008.gcode Size: 24950020
 2024-11-24 19:14:06,060 [job_status.py:show_file_thumbnail()] - TH008.gcode
+2024-11-24 19:36:21,112 [printer.py:change_state()] - Changing state from 'printing' to 'paused'
+2024-11-24 19:36:21,113 [printer.py:change_state()] - Adding callback for state: paused
+2024-11-24 19:36:21,126 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'paused'
+2024-11-24 19:36:21,184 [screen.py:show_panel()] - Reinitializing panel
+2024-11-24 19:36:21,404 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-11-24 19:36:21,414 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'paused'
+2024-11-24 19:36:21,430 [job_status.py:update_file_metadata()] - Update Metadata. File: TH008.gcode Size: 24950020
+2024-11-24 19:36:21,442 [job_status.py:show_file_thumbnail()] - TH008.gcode
+2024-11-24 19:36:21,450 [screen.py:show_panel()] - Reinitializing panel
+2024-11-24 19:36:21,571 [screen.py:attach_panel()] - Current panel hierarchy: job_status > extrude
