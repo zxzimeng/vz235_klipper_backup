@@ -2055,3 +2055,8 @@ Y: {0.0, 190.0}
 2024-11-24 20:52:00,465 [job_status.py:update_file_metadata()] - Update Metadata. File: TH008.gcode Size: 26841128
 2024-11-24 20:52:00,477 [job_status.py:show_file_thumbnail()] - TH008.gcode
 2024-11-24 21:12:19,657 [screen.py:show_screensaver()] - Showing Screensaver
+2024-11-24 22:46:24,577 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
+2024-11-24 22:46:24,578 [printer.py:change_state()] - Adding callback for state: ready
+2024-11-24 22:46:24,582 [screen.py:close_screensaver()] - Closing Screensaver
+2024-11-24 22:46:24,628 [screen.py:wake_screen()] - Screen wake up
+2024-11-24 22:46:24,650 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'complete'
