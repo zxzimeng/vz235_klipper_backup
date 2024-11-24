@@ -5487,3 +5487,17 @@ CPU Temperature: 45.908
 2024-11-24 19:02:26,176 [job_state.py:_status_update()] - Job Started: TH008.gcode
 2024-11-24 19:05:10,309 [klippy_apis.py:pause_print()] - Requesting job pause...
 2024-11-24 19:05:16,924 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-11-24 19:07:22,343 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPS9azyM0iPIURRtW
+2024-11-24 19:07:22,377 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-24 19:07:22,389 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 49.30ms
+2024-11-24 19:07:23,481 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 19:07:24,746 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 19:07:28,783 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 19:07:29,023 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 19:07:29,029 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 19:07:29,274 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 19:07:29,541 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 19:07:30,034 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 19:08:14,539 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
+2024-11-24 19:08:14,644 [job_state.py:_status_update()] - Job Started: TH008.gcode
