@@ -5316,3 +5316,15 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKepD4FCPZI1zke
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryOeOQ3enXCb64mYxm
 2024-11-24 18:34:02,855 [application.py:post()] - Processing Uploaded File: start_Stop.cfg
 2024-11-24 18:34:02,866 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 34.42ms
+2024-11-24 18:39:35,957 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoearzmjbeNZsLn6i
+2024-11-24 18:39:35,979 [application.py:post()] - Processing Uploaded File: start_Stop.cfg
+2024-11-24 18:39:35,990 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 34.86ms
+2024-11-24 18:39:37,094 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 18:39:38,368 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 18:39:42,449 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 18:39:42,696 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 18:39:42,701 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 18:39:42,952 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 18:39:43,220 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 18:39:43,963 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
