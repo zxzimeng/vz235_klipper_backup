@@ -2044,3 +2044,13 @@ Y: {0.0, 190.0}
 2024-11-24 20:48:08,536 [screen.py:show_panel()] - Reinitializing panel
 2024-11-24 20:48:08,657 [screen.py:attach_panel()] - Current panel hierarchy: job_status > extrude
 2024-11-24 20:49:14,213 [screen.py:show_popup_message()] - error: Move out of range: 115.000 115.000 210.000 [488.976]
+2024-11-24 20:51:19,876 [screen.py:show_popup_message()] - error: // Unknown command:"G8"
+2024-11-24 20:51:57,873 [printer.py:change_state()] - Changing state from 'paused' to 'ready'
+2024-11-24 20:51:57,874 [printer.py:change_state()] - Adding callback for state: ready
+2024-11-24 20:52:00,126 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-11-24 20:52:00,127 [printer.py:change_state()] - Adding callback for state: printing
+2024-11-24 20:52:00,151 [screen.py:show_panel()] - Reinitializing panel
+2024-11-24 20:52:00,427 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-11-24 20:52:00,440 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-11-24 20:52:00,465 [job_status.py:update_file_metadata()] - Update Metadata. File: TH008.gcode Size: 26841128
+2024-11-24 20:52:00,477 [job_status.py:show_file_thumbnail()] - TH008.gcode
