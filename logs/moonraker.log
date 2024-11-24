@@ -5429,3 +5429,7 @@ CPU Temperature: 44.612
 2024-11-24 18:56:35,553 [websockets.py:on_close()] - Websocket Closed: ID: 281473109063088 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.35
 2024-11-24 18:56:40,397 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
 2024-11-24 18:56:40,417 [job_state.py:_status_update()] - Job Started: TH008.gcode
+2024-11-24 18:59:15,420 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryvk3Ay0WHnlQok7eC
+2024-11-24 18:59:15,442 [application.py:post()] - Processing Uploaded File: start_Stop.cfg
+2024-11-24 18:59:15,808 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 389.26ms
