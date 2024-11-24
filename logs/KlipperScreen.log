@@ -651,3 +651,16 @@ Y: {0.0, 190.0}
 2024-11-24 19:40:07,284 [printer.py:init_temp_store()] - Temp store: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
 2024-11-24 19:40:07,292 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/config
 2024-11-24 19:40:07,340 [screen.py:init_tempstore()] - Temperature store size: 1200
+2024-11-24 19:40:15,824 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-11-24 19:40:15,825 [printer.py:change_state()] - Adding callback for state: printing
+2024-11-24 19:40:15,853 [screen.py:show_panel()] - Reinitializing panel
+2024-11-24 19:40:16,152 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-11-24 19:40:16,171 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-11-24 19:40:16,206 [job_status.py:update_file_metadata()] - Update Metadata. File: TH008.gcode Size: 36646530
+2024-11-24 19:40:16,219 [job_status.py:show_file_thumbnail()] - TH008.gcode
+2024-11-24 19:40:16,671 [job_status.py:update_file_metadata()] - Update Metadata. File: TH008.gcode Size: 36646530
+2024-11-24 19:40:16,685 [job_status.py:show_file_thumbnail()] - TH008.gcode
+2024-11-24 19:41:06,795 [screen.py:show_popup_message()] - error: No trigger on x after full movement
+2024-11-24 19:41:06,991 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
+2024-11-24 19:41:06,991 [printer.py:change_state()] - Adding callback for state: ready
+2024-11-24 19:41:07,006 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'error'

@@ -5539,3 +5539,18 @@ Content-Type: multipart/form-data; boundary=------------------------sNmP1bAcoLDM
 2024-11-24 19:40:13,694 [application.py:post()] - Processing Uploaded File: TH008.gcode
 2024-11-24 19:40:15,303 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
 
+2024-11-24 19:40:15,615 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "TH008.gcode") successfully finished
+2024-11-24 19:40:15,617 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
+2024-11-24 19:40:15,618 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/TH008.gcode
+Inotify path: /home/biqu/printer_data/gcodes/TH008.gcode
+Is move/copy: False
+2024-11-24 19:40:15,655 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 8758.05ms
+2024-11-24 19:40:15,711 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=------------------------jdsD5g8o9klzrOkLfuTzLC
+2024-11-24 19:40:15,821 [job_state.py:_status_update()] - Job Started: TH008.gcode
+2024-11-24 19:40:22,230 [application.py:post()] - Processing Uploaded File: TH008.gcode
+2024-11-24 19:40:22,255 [web.py:log_exception()] - 403 POST /server/files/upload (192.168.1.78): File is loaded, upload not permitted
+2024-11-24 19:40:22,571 [application.py:log_request()] - 403 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 6861.11ms
