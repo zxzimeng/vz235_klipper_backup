@@ -5509,3 +5509,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary37ESiR9SOOUVTo
 2024-11-24 19:14:03,117 [klippy_apis.py:cancel_print()] - Requesting job cancel...
 2024-11-24 19:14:05,494 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
 2024-11-24 19:14:05,738 [job_state.py:_status_update()] - Job Started: TH008.gcode
+2024-11-24 19:17:55,365 [websockets.py:on_close()] - Websocket Closed: ID: 281473145465968 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.58
