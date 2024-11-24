@@ -6937,3 +6937,8 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywIVumozXdRsJVt
 2024-11-24 21:23:24,083 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 4.38ms
 2024-11-24 21:23:24,084 [websockets.py:open()] - Websocket Opened: ID: 281473407213520, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
 2024-11-24 21:23:24,099 [websockets.py:_handle_identify()] - Websocket 281473407213520 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-24 21:32:14,109 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473407213520
+2024-11-24 21:32:19,089 [websockets.py:on_close()] - Websocket Closed: ID: 281473407213520 Close Code: None, Close Reason: None, Pong Time Elapsed: 37.33
+2024-11-24 21:35:32,963 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.79
+2024-11-24 21:37:13,089 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.86.21
+2024-11-24 21:37:13,091 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.86.21
