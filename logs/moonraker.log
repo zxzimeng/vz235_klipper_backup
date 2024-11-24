@@ -5234,3 +5234,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKepD4FCPZI1zke
 2024-11-24 17:46:46,723 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 480.02 seconds
 2024-11-24 17:47:45,708 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 540.02 seconds
 2024-11-24 17:47:46,725 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 540.02 seconds
+2024-11-24 17:48:45,710 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 600.03 seconds
+2024-11-24 17:48:46,727 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 600.02 seconds
