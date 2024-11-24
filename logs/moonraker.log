@@ -5510,3 +5510,6 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary37ESiR9SOOUVTo
 2024-11-24 19:14:05,494 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
 2024-11-24 19:14:05,738 [job_state.py:_status_update()] - Job Started: TH008.gcode
 2024-11-24 19:17:55,365 [websockets.py:on_close()] - Websocket Closed: ID: 281473145465968 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.58
+2024-11-24 19:31:06,203 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 4.37ms
+2024-11-24 19:31:06,204 [websockets.py:open()] - Websocket Opened: ID: 281473127574544, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
+2024-11-24 19:31:06,215 [websockets.py:_handle_identify()] - Websocket 281473127574544 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
