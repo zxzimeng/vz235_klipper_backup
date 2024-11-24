@@ -5291,3 +5291,16 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKepD4FCPZI1zke
 2024-11-24 18:12:36,747 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-11-24 18:13:36,750 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
 2024-11-24 18:14:36,752 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.01 seconds
+2024-11-24 18:15:36,754 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 240.01 seconds
+2024-11-24 18:16:20,202 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 18:16:21,047 [websockets.py:on_close()] - Websocket Closed: ID: 281473127636080 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.88
+2024-11-24 18:16:21,467 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 18:16:25,463 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 18:16:25,471 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 18:16:25,477 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 18:16:25,715 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 18:16:25,993 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 18:16:26,465 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 18:16:46,737 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 4.15ms
+2024-11-24 18:16:46,738 [websockets.py:open()] - Websocket Opened: ID: 281473108158448, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
+2024-11-24 18:16:46,750 [websockets.py:_handle_identify()] - Websocket 281473108158448 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
