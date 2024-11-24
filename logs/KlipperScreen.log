@@ -152,3 +152,5 @@ Y: {0.0, 190.0}
 2024-11-24 17:37:50,963 [screen.py:show_popup_message()] - error: Error evaluating 'gcode_macro PID_Calibrate_dropdown:gcode': jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'TARGET'
 2024-11-24 17:57:27,319 [screen.py:show_screensaver()] - Showing Screensaver
 2024-11-24 17:57:27,320 [screen.py:show_screensaver()] - Hiding dialog
+2024-11-24 18:03:32,980 [KlippyGtk.py:remove_dialog()] - Removing Dialog
+2024-11-24 18:03:33,032 [KlippyGtk.py:Dialog()] - Showing dialog KlipperScreen (width=1024, height=768)

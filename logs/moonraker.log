@@ -5268,3 +5268,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKepD4FCPZI1zke
 2024-11-24 18:02:16,710 [websockets.py:_handle_identify()] - Websocket 281473109672528 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-11-24 18:02:45,744 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1440.06 seconds
 2024-11-24 18:02:46,755 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1440.05 seconds
+2024-11-24 18:03:46,761 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1500.05 seconds
+2024-11-24 18:04:46,763 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1560.06 seconds
