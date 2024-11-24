@@ -5685,3 +5685,30 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryCoByo8mOkmhp8q
 2024-11-24 19:48:59,334 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-11-24 19:48:59,672 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-11-24 19:49:00,848 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 19:50:03,800 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDXtSM0tgjgty3vAy
+2024-11-24 19:50:03,844 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-24 19:50:03,856 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 62.23ms
+2024-11-24 19:50:04,959 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 19:50:06,227 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 19:50:10,692 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 19:50:10,940 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 19:50:10,946 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 19:50:11,192 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 19:50:11,490 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 19:50:12,454 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 19:50:13,179 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=------------------------Oh8AbHMJFsuVD27OeJJlul
+2024-11-24 19:50:19,907 [application.py:post()] - Processing Uploaded File: TH008.gcode
+2024-11-24 19:50:22,798 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-11-24 19:50:23,066 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "TH008.gcode") successfully finished
+2024-11-24 19:50:23,067 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
+2024-11-24 19:50:23,069 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/TH008.gcode
+Inotify path: /home/biqu/printer_data/gcodes/TH008.gcode
+Is move/copy: False
+2024-11-24 19:50:23,106 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 9929.30ms
+2024-11-24 19:50:23,222 [job_state.py:_status_update()] - Job Started: TH008.gcode
