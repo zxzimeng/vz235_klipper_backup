@@ -6418,3 +6418,363 @@ Inotify path: /home/biqu/printer_data/gcodes/TH008.gcode
 Is move/copy: False
 2024-11-24 20:14:51,037 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 7705.53ms
 2024-11-24 20:14:51,198 [job_state.py:_status_update()] - Job Started: TH008.gcode
+2024-11-24 20:16:38,649 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryryvGSPB7Q9BRwb1r
+2024-11-24 20:16:38,675 [application.py:post()] - Processing Uploaded File: start_Stop.cfg
+2024-11-24 20:16:38,686 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 38.90ms
+2024-11-24 20:17:05,900 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-11-24 20:17:05,916 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1732479396.007491, Usage: 3.42%, Memory: 45456 kB
+System Time: 1732479397.015101, Usage: 3.3%, Memory: 45460 kB
+System Time: 1732479398.008385, Usage: 3.97%, Memory: 45460 kB
+System Time: 1732479399.009492, Usage: 8.05%, Memory: 45464 kB
+System Time: 1732479400.012350, Usage: 10.64%, Memory: 45472 kB
+System Time: 1732479401.012298, Usage: 5.43%, Memory: 45472 kB
+System Time: 1732479402.013322, Usage: 3.38%, Memory: 45472 kB
+System Time: 1732479403.014717, Usage: 4.3%, Memory: 45472 kB
+System Time: 1732479404.016082, Usage: 3.35%, Memory: 45472 kB
+System Time: 1732479405.017415, Usage: 3.23%, Memory: 45472 kB
+System Time: 1732479406.019094, Usage: 10.3%, Memory: 45472 kB
+System Time: 1732479407.019845, Usage: 5.22%, Memory: 45472 kB
+System Time: 1732479408.022807, Usage: 2.93%, Memory: 45472 kB
+System Time: 1732479409.022456, Usage: 3.0%, Memory: 45472 kB
+System Time: 1732479410.026862, Usage: 3.2%, Memory: 45472 kB
+System Time: 1732479411.025004, Usage: 3.57%, Memory: 45472 kB
+System Time: 1732479412.027696, Usage: 11.13%, Memory: 45472 kB
+System Time: 1732479413.027260, Usage: 8.09%, Memory: 45472 kB
+System Time: 1732479414.027724, Usage: 3.01%, Memory: 45472 kB
+System Time: 1732479415.029829, Usage: 3.42%, Memory: 45472 kB
+System Time: 1732479416.031025, Usage: 3.02%, Memory: 45472 kB
+System Time: 1732479417.034773, Usage: 3.08%, Memory: 45472 kB
+System Time: 1732479418.034115, Usage: 18.17%, Memory: 45472 kB
+System Time: 1732479419.034553, Usage: 5.33%, Memory: 45472 kB
+System Time: 1732479420.041827, Usage: 2.22%, Memory: 45472 kB
+System Time: 1732479421.036787, Usage: 3.59%, Memory: 45472 kB
+System Time: 1732479422.038866, Usage: 3.62%, Memory: 45472 kB
+System Time: 1732479423.040070, Usage: 4.86%, Memory: 45476 kB
+System Time: 1732479424.041973, Usage: 12.39%, Memory: 45480 kB
+System Time: 1732479425.041763, Usage: 6.86%, Memory: 45480 kB
+CPU Temperature: 49.634
+2024-11-24 20:17:11,420 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:17:12,685 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:17:16,757 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:17:17,003 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:17:17,008 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:17:17,255 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:17:17,524 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:17:18,095 [klippy_connection.py:close()] - Error closing Klippy Unix Socket
+Traceback (most recent call last):
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 802, in close
+    await self.writer.wait_closed()
+  File "/usr/lib/python3.9/asyncio/streams.py", line 359, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 191, in _read_stream
+    data = await reader.readuntil(b'\x03')
+  File "/usr/lib/python3.9/asyncio/streams.py", line 632, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/usr/lib/python3.9/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.9/asyncio/selector_events.py", line 856, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2024-11-24 20:17:18,096 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:17:18,100 [data_store.py:_init_sensors()] - Error subscribing to sensors: Klippy Disconnected
+2024-11-24 20:17:18,117 [server.py:_process_event()] - 
+Error processing callback in event server:klippy_ready
+Traceback (most recent call last):
+  File "/home/biqu/moonraker/moonraker/components/octoprint_compat.py", line 144, in _init
+    result = await self.klippy_apis.subscribe_objects(sub)
+  File "/home/biqu/moonraker/moonraker/components/klippy_apis.py", line 255, in subscribe_objects
+    result = await self._send_klippy_request(SUBSCRIPTION_ENDPOINT, params, default)
+  File "/home/biqu/moonraker/moonraker/components/klippy_apis.py", line 111, in _send_klippy_request
+    result = await self.klippy.request(req)
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 610, in request
+    return await self._request_subscripton(web_request)
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 644, in _request_subscripton
+    result = await self._request_standard(web_request, 20.0)
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 711, in _request_standard
+    return await base_request.wait(timeout)
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 822, in wait
+    return await asyncio.wait_for(asyncio.shield(self._fut), to)
+  File "/usr/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+moonraker.utils.exceptions.ServerError: Klippy Host not connected
+
+2024-11-24 20:17:18,222 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2024-11-24 20:17:18,394 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2024-11-24 20:17:19,363 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:17:23,589 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:17:23,834 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:17:23,840 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:17:24,086 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:17:24,374 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:17:24,858 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:20:23,095 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=------------------------m9zS9LI0aLWmApBCDw8Fx6
+2024-11-24 20:20:27,745 [application.py:post()] - Processing Uploaded File: TH008.gcode
+2024-11-24 20:20:30,324 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-11-24 20:20:30,588 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "TH008.gcode") successfully finished
+2024-11-24 20:20:30,589 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
+2024-11-24 20:20:30,591 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/TH008.gcode
+Inotify path: /home/biqu/printer_data/gcodes/TH008.gcode
+Is move/copy: False
+2024-11-24 20:20:30,628 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 7537.09ms
+2024-11-24 20:20:30,649 [job_state.py:_status_update()] - Job Started: TH008.gcode
+2024-11-24 20:21:15,030 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-11-24 20:21:15,045 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1732479645.664223, Usage: 3.56%, Memory: 46468 kB
+System Time: 1732479646.666879, Usage: 4.09%, Memory: 46468 kB
+System Time: 1732479647.667676, Usage: 14.91%, Memory: 46468 kB
+System Time: 1732479648.666700, Usage: 5.59%, Memory: 46468 kB
+System Time: 1732479649.670155, Usage: 2.98%, Memory: 46468 kB
+System Time: 1732479650.670483, Usage: 3.01%, Memory: 46468 kB
+System Time: 1732479651.672692, Usage: 3.4%, Memory: 46468 kB
+System Time: 1732479652.673471, Usage: 3.26%, Memory: 46468 kB
+System Time: 1732479653.676717, Usage: 10.63%, Memory: 46468 kB
+System Time: 1732479654.676512, Usage: 7.9%, Memory: 46468 kB
+System Time: 1732479655.681198, Usage: 3.08%, Memory: 46468 kB
+System Time: 1732479656.678593, Usage: 3.75%, Memory: 46468 kB
+System Time: 1732479657.678956, Usage: 3.04%, Memory: 46468 kB
+System Time: 1732479658.684427, Usage: 3.08%, Memory: 46468 kB
+System Time: 1732479659.682702, Usage: 11.62%, Memory: 46468 kB
+System Time: 1732479660.681947, Usage: 5.53%, Memory: 46468 kB
+System Time: 1732479661.683415, Usage: 2.91%, Memory: 46468 kB
+System Time: 1732479662.683770, Usage: 3.14%, Memory: 46468 kB
+System Time: 1732479663.688183, Usage: 3.74%, Memory: 46468 kB
+System Time: 1732479664.687011, Usage: 5.67%, Memory: 46468 kB
+System Time: 1732479665.688392, Usage: 10.55%, Memory: 46468 kB
+System Time: 1732479666.688646, Usage: 5.54%, Memory: 46468 kB
+System Time: 1732479667.690333, Usage: 3.03%, Memory: 46468 kB
+System Time: 1732479668.691802, Usage: 3.16%, Memory: 46468 kB
+System Time: 1732479669.693183, Usage: 3.05%, Memory: 46468 kB
+System Time: 1732479670.696013, Usage: 3.0%, Memory: 46468 kB
+System Time: 1732479671.698219, Usage: 11.52%, Memory: 46468 kB
+System Time: 1732479672.696867, Usage: 5.8%, Memory: 46468 kB
+System Time: 1732479673.697990, Usage: 3.17%, Memory: 46468 kB
+System Time: 1732479674.699874, Usage: 5.05%, Memory: 46468 kB
+CPU Temperature: 47.447
+2024-11-24 20:21:16,893 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:21:18,158 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:21:22,264 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:21:22,269 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:21:22,277 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:21:22,516 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:21:22,788 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:21:23,281 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:23:03,835 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEa8eAVwdYshrAQxt
+2024-11-24 20:23:03,858 [application.py:post()] - Processing Uploaded File: TEST_SPEED.cfg
+2024-11-24 20:23:03,871 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 38.11ms
+2024-11-24 20:23:21,158 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryABN3jAnABdJ3cwTF
+2024-11-24 20:23:21,182 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-24 20:23:21,192 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 35.63ms
+2024-11-24 20:23:22,289 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:23:23,555 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:23:28,051 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:23:28,056 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:23:28,065 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:23:28,303 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:23:28,600 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:23:29,068 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:25:06,598 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-11-24 20:25:44,976 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-11-24 20:25:45,055 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-11-24 20:25:45,067 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1732479915.041077, Usage: 4.77%, Memory: 46820 kB
+System Time: 1732479916.042204, Usage: 2.92%, Memory: 46820 kB
+System Time: 1732479917.043007, Usage: 3.2%, Memory: 46820 kB
+System Time: 1732479918.044023, Usage: 3.06%, Memory: 46820 kB
+System Time: 1732479919.046750, Usage: 16.53%, Memory: 46820 kB
+System Time: 1732479920.046957, Usage: 5.24%, Memory: 46820 kB
+System Time: 1732479921.048736, Usage: 3.01%, Memory: 46820 kB
+System Time: 1732479922.048391, Usage: 3.36%, Memory: 46820 kB
+System Time: 1732479923.055389, Usage: 3.43%, Memory: 46820 kB
+System Time: 1732479924.051852, Usage: 4.47%, Memory: 46820 kB
+System Time: 1732479925.054835, Usage: 13.28%, Memory: 46820 kB
+System Time: 1732479926.053991, Usage: 5.48%, Memory: 46820 kB
+System Time: 1732479927.054797, Usage: 2.85%, Memory: 46820 kB
+System Time: 1732479928.061823, Usage: 3.22%, Memory: 46820 kB
+System Time: 1732479929.057427, Usage: 4.17%, Memory: 46820 kB
+System Time: 1732479930.058721, Usage: 2.93%, Memory: 46820 kB
+System Time: 1732479931.061734, Usage: 10.69%, Memory: 46820 kB
+System Time: 1732479932.061547, Usage: 5.66%, Memory: 46820 kB
+System Time: 1732479933.064872, Usage: 3.18%, Memory: 46820 kB
+System Time: 1732479934.064047, Usage: 3.73%, Memory: 46820 kB
+System Time: 1732479935.065586, Usage: 4.81%, Memory: 46820 kB
+System Time: 1732479936.071976, Usage: 3.63%, Memory: 46820 kB
+System Time: 1732479937.069460, Usage: 14.94%, Memory: 46820 kB
+System Time: 1732479938.069450, Usage: 5.5%, Memory: 46820 kB
+System Time: 1732479939.070816, Usage: 2.87%, Memory: 46820 kB
+System Time: 1732479940.073669, Usage: 3.05%, Memory: 46820 kB
+System Time: 1732479941.080068, Usage: 3.3%, Memory: 46820 kB
+System Time: 1732479942.075275, Usage: 4.14%, Memory: 46820 kB
+System Time: 1732479943.076669, Usage: 11.15%, Memory: 46820 kB
+System Time: 1732479944.076488, Usage: 5.89%, Memory: 46820 kB
+CPU Temperature: 46.88
+2024-11-24 20:25:46,259 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:25:47,525 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:25:51,827 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:25:52,075 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:25:52,081 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:25:52,326 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:25:52,597 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:25:53,090 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:27:08,217 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysRwsTMTQBbHynGDk
+2024-11-24 20:27:08,245 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-24 20:27:08,258 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 43.57ms
+2024-11-24 20:27:09,343 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:27:10,609 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:27:14,770 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:27:15,017 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:27:15,022 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:27:15,268 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:27:15,560 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:27:16,032 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:27:32,288 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPpM7omIJIRSDpSQM
+2024-11-24 20:27:32,319 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-24 20:27:32,332 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 46.22ms
+2024-11-24 20:27:33,426 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:27:34,693 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:27:39,007 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:27:39,255 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:27:39,260 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:27:39,503 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:27:39,793 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:27:40,266 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:27:54,653 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryK32s35lotiGESIUZ
+2024-11-24 20:27:54,699 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-24 20:27:54,721 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 70.76ms
+2024-11-24 20:27:55,813 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:27:57,079 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:28:01,286 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:28:01,532 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:28:01,540 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:28:01,922 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:28:02,082 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:28:02,550 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:31:32,001 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBgoAk1WNAEmZRwyA
+2024-11-24 20:31:32,025 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-24 20:31:32,035 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 35.86ms
+2024-11-24 20:31:33,127 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:31:34,395 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:31:38,805 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:31:38,811 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:31:38,820 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:31:39,056 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:31:39,352 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:31:39,819 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:31:50,579 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-11-24 20:31:50,592 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1732480280.648343, Usage: 3.98%, Memory: 47436 kB
+System Time: 1732480281.651655, Usage: 4.84%, Memory: 47436 kB
+System Time: 1732480282.650211, Usage: 11.7%, Memory: 47436 kB
+System Time: 1732480283.649194, Usage: 5.78%, Memory: 47436 kB
+System Time: 1732480284.651812, Usage: 3.51%, Memory: 47436 kB
+System Time: 1732480285.653950, Usage: 6.43%, Memory: 47436 kB
+System Time: 1732480286.665096, Usage: 3.61%, Memory: 47436 kB
+System Time: 1732480287.659250, Usage: 4.31%, Memory: 47436 kB
+System Time: 1732480288.667239, Usage: 9.81%, Memory: 47436 kB
+System Time: 1732480289.664323, Usage: 5.8%, Memory: 47436 kB
+System Time: 1732480290.666634, Usage: 3.25%, Memory: 47436 kB
+System Time: 1732480291.675191, Usage: 3.93%, Memory: 47436 kB
+System Time: 1732480292.668635, Usage: 9.62%, Memory: 47436 kB
+System Time: 1732480293.665536, Usage: 4.52%, Memory: 47436 kB
+System Time: 1732480294.669103, Usage: 28.56%, Memory: 47436 kB
+System Time: 1732480295.671069, Usage: 6.15%, Memory: 47440 kB
+System Time: 1732480296.682591, Usage: 2.23%, Memory: 47440 kB
+System Time: 1732480297.670814, Usage: 15.29%, Memory: 47440 kB
+System Time: 1732480298.675225, Usage: 3.35%, Memory: 47440 kB
+System Time: 1732480299.673326, Usage: 30.24%, Memory: 47440 kB
+System Time: 1732480300.674635, Usage: 14.18%, Memory: 47440 kB
+System Time: 1732480301.674244, Usage: 5.53%, Memory: 47440 kB
+System Time: 1732480302.675303, Usage: 3.19%, Memory: 47440 kB
+System Time: 1732480303.675997, Usage: 2.91%, Memory: 47440 kB
+System Time: 1732480304.679829, Usage: 5.73%, Memory: 47440 kB
+System Time: 1732480305.678744, Usage: 5.37%, Memory: 47440 kB
+System Time: 1732480306.680143, Usage: 10.77%, Memory: 47440 kB
+System Time: 1732480307.680099, Usage: 5.75%, Memory: 47440 kB
+System Time: 1732480308.681170, Usage: 2.88%, Memory: 47440 kB
+System Time: 1732480309.684121, Usage: 2.86%, Memory: 47440 kB
+CPU Temperature: 45.179
+2024-11-24 20:31:50,771 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Homing failed due to printer shutdown
+2024-11-24 20:31:51,392 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:31:52,729 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:31:57,074 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:31:57,082 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:31:57,097 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:31:57,317 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:31:57,585 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:31:58,087 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:32:42,704 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhZSqD949wPW9wXsz
+2024-11-24 20:32:42,740 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-24 20:32:42,753 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 51.79ms
+2024-11-24 20:32:43,908 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:32:45,175 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:32:49,334 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:32:49,339 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:32:49,347 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:32:49,585 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:32:49,866 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:32:50,349 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
+2024-11-24 20:32:58,856 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-11-24 20:32:58,870 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1732480348.817354, Usage: 10.85%, Memory: 47440 kB
+System Time: 1732480349.817884, Usage: 5.3%, Memory: 47440 kB
+System Time: 1732480350.819783, Usage: 2.92%, Memory: 47440 kB
+System Time: 1732480351.820624, Usage: 2.9%, Memory: 47440 kB
+System Time: 1732480352.825201, Usage: 4.02%, Memory: 47440 kB
+System Time: 1732480353.822768, Usage: 3.43%, Memory: 47440 kB
+System Time: 1732480354.825387, Usage: 10.44%, Memory: 47440 kB
+System Time: 1732480355.824988, Usage: 7.28%, Memory: 47440 kB
+System Time: 1732480356.825485, Usage: 2.84%, Memory: 47440 kB
+System Time: 1732480357.826536, Usage: 3.43%, Memory: 47440 kB
+System Time: 1732480358.828135, Usage: 2.79%, Memory: 47440 kB
+System Time: 1732480359.834767, Usage: 2.81%, Memory: 47440 kB
+System Time: 1732480360.832324, Usage: 15.48%, Memory: 47440 kB
+System Time: 1732480361.831995, Usage: 5.53%, Memory: 47440 kB
+System Time: 1732480362.835654, Usage: 9.68%, Memory: 47440 kB
+System Time: 1732480363.834768, Usage: 3.63%, Memory: 47440 kB
+System Time: 1732480364.841115, Usage: 3.34%, Memory: 47440 kB
+System Time: 1732480365.839014, Usage: 16.92%, Memory: 47440 kB
+System Time: 1732480366.841454, Usage: 9.47%, Memory: 47440 kB
+System Time: 1732480367.840061, Usage: 13.42%, Memory: 47440 kB
+System Time: 1732480368.841222, Usage: 6.26%, Memory: 47440 kB
+System Time: 1732480369.853246, Usage: 11.71%, Memory: 47440 kB
+System Time: 1732480370.845348, Usage: 15.35%, Memory: 47440 kB
+System Time: 1732480371.848846, Usage: 2.96%, Memory: 47440 kB
+System Time: 1732480372.855031, Usage: 10.94%, Memory: 47440 kB
+System Time: 1732480373.853711, Usage: 6.2%, Memory: 47440 kB
+System Time: 1732480374.856511, Usage: 3.51%, Memory: 47440 kB
+System Time: 1732480375.860189, Usage: 4.76%, Memory: 47440 kB
+System Time: 1732480376.862501, Usage: 3.41%, Memory: 47440 kB
+System Time: 1732480377.865758, Usage: 3.13%, Memory: 47440 kB
+CPU Temperature: 44.855
+2024-11-24 20:32:59,017 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Homing failed due to printer shutdown
+2024-11-24 20:32:59,815 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 20:33:01,083 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 20:33:05,259 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 20:33:05,507 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 20:33:05,514 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 20:33:05,756 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 20:33:06,026 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 20:33:06,526 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
