@@ -5332,3 +5332,15 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoearzmjbeNZsLn
 2024-11-24 18:40:14,000 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 5.25ms
 2024-11-24 18:40:14,001 [websockets.py:open()] - Websocket Opened: ID: 281473127618976, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
 2024-11-24 18:40:14,026 [websockets.py:_handle_identify()] - Websocket 281473127618976 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-24 18:43:37,703 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYh3nWr16EXXlYlYn
+2024-11-24 18:43:37,738 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-24 18:43:37,753 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 52.90ms
+2024-11-24 18:43:38,870 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 18:43:40,135 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 18:43:44,190 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 18:43:44,439 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 18:43:44,446 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 18:43:44,689 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 18:43:44,981 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 18:43:45,705 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
