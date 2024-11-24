@@ -5279,3 +5279,12 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKepD4FCPZI1zke
 2024-11-24 18:07:46,769 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1740.06 seconds
 2024-11-24 18:08:46,773 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1800.07 seconds
 2024-11-24 18:09:46,775 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1860.07 seconds
+2024-11-24 18:10:46,777 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1920.07 seconds
+2024-11-24 18:11:14,388 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 18:11:15,655 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 18:11:19,846 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 18:11:20,094 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 18:11:20,099 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 18:11:20,346 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 18:11:20,643 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 18:11:21,108 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
