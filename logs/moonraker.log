@@ -5304,3 +5304,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKepD4FCPZI1zke
 2024-11-24 18:16:46,737 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 4.15ms
 2024-11-24 18:16:46,738 [websockets.py:open()] - Websocket Opened: ID: 281473108158448, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
 2024-11-24 18:16:46,750 [websockets.py:_handle_identify()] - Websocket 281473108158448 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-24 18:21:23,200 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-24 18:21:24,475 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-24 18:21:28,464 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-24 18:21:28,470 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-24 18:21:28,478 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-24 18:21:28,717 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-24 18:21:28,989 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-24 18:21:29,483 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
