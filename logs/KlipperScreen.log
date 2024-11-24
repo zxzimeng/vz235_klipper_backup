@@ -150,3 +150,5 @@ Y: {0.0, 190.0}
 2024-11-24 17:12:34,144 [bed_level.py:process_update()] - X: 20.0 Y: 190.0 Adjust: 00:07 Pos: bl
 2024-11-24 17:26:43,359 [screen.py:show_popup_message()] - error: Move out of range: 0.000 0.000 210.000 [0.000]
 2024-11-24 17:37:50,963 [screen.py:show_popup_message()] - error: Error evaluating 'gcode_macro PID_Calibrate_dropdown:gcode': jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'TARGET'
+2024-11-24 17:57:27,319 [screen.py:show_screensaver()] - Showing Screensaver
+2024-11-24 17:57:27,320 [screen.py:show_screensaver()] - Hiding dialog
