@@ -5433,3 +5433,4 @@ CPU Temperature: 44.612
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryvk3Ay0WHnlQok7eC
 2024-11-24 18:59:15,442 [application.py:post()] - Processing Uploaded File: start_Stop.cfg
 2024-11-24 18:59:15,808 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 389.26ms
+2024-11-24 19:00:54,007 [klippy_apis.py:pause_print()] - Requesting job pause...
