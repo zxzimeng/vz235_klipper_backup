@@ -5261,3 +5261,10 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKepD4FCPZI1zke
 2024-11-24 17:59:46,750 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1260.04 seconds
 2024-11-24 18:00:45,739 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1320.06 seconds
 2024-11-24 18:00:46,751 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1320.05 seconds
+2024-11-24 18:01:45,741 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1380.06 seconds
+2024-11-24 18:01:46,754 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1380.05 seconds
+2024-11-24 18:02:16,677 [application.py:log_request()] - 101 GET /websocket (192.168.1.78) [_TRUSTED_USER_] 5.01ms
+2024-11-24 18:02:16,678 [websockets.py:open()] - Websocket Opened: ID: 281473109672528, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
+2024-11-24 18:02:16,710 [websockets.py:_handle_identify()] - Websocket 281473109672528 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-24 18:02:45,744 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1440.06 seconds
+2024-11-24 18:02:46,755 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 1440.05 seconds
