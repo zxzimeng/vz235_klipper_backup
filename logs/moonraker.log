@@ -5501,3 +5501,7 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPS9azyM0iPIURR
 2024-11-24 19:07:30,034 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor MantaM8P', 'temperature_sensor CB1', 'heater_bed', 'temperature_sensor chamber', 'extruder']
 2024-11-24 19:08:14,539 [klippy_apis.py:start_print()] - Requesting Job Start, filename = TH008.gcode
 2024-11-24 19:08:14,644 [job_state.py:_status_update()] - Job Started: TH008.gcode
+2024-11-24 19:09:43,935 [application.py:prepare()] - Upload Request Received from 192.168.1.78
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary37ESiR9SOOUVToBb
+2024-11-24 19:09:43,960 [application.py:post()] - Processing Uploaded File: start_Stop.cfg
+2024-11-24 19:09:43,970 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.78) [_TRUSTED_USER_] 36.99ms
