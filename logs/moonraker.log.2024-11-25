@@ -1,4 +1,4 @@
--------------------- Log Start | Fri Nov 29 09:57:56 2024 --------------------
+-------------------- Log Start | Mon Nov 25 06:15:15 2024 --------------------
 platform: Linux-5.16.17-sun50iw9-aarch64-with-glibc2.31
 data_path: /home/biqu/printer_data
 is_default_data_path: False
@@ -146,18 +146,5 @@ Properties:
 Git Repo moonraker: No warnings detected
 Git Repo klipper: No warnings detected
 Klipper Version: v0.12.0-379-gf2e69a370-dirty
-2024-11-29 09:57:56,536 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0cece50>, <Task finished name='Task-11032677' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
+2024-11-25 06:15:15,888 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.86.21
+2024-11-25 06:16:35,983 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.86.21
