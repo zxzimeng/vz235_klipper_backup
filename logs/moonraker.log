@@ -345,3 +345,5 @@ CPU Temperature: 50.201
 2024-12-01 16:16:30,898 [websockets.py:open()] - Websocket Opened: ID: 281473407176320, Proxied: True, User Agent: PrusaSlicer, Host Name: fastalpaca.local
 2024-12-01 16:16:30,951 [websockets.py:_handle_identify()] - Websocket 281473407176320 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-12-01 16:28:30,465 [websockets.py:on_close()] - Websocket Closed: ID: 281473378371808 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.48
+2024-12-01 16:38:10,966 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473407176320
+2024-12-01 16:38:15,902 [websockets.py:on_close()] - Websocket Closed: ID: 281473407176320 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
