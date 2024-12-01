@@ -1,4 +1,4 @@
--------------------- Log Start | Fri Nov 29 09:57:56 2024 --------------------
+-------------------- Log Start | Sun Dec  1 14:41:05 2024 --------------------
 platform: Linux-5.16.17-sun50iw9-aarch64-with-glibc2.31
 data_path: /home/biqu/printer_data
 is_default_data_path: False
@@ -146,153 +146,22 @@ Properties:
 Git Repo moonraker: No warnings detected
 Git Repo klipper: No warnings detected
 Klipper Version: v0.12.0-379-gf2e69a370-dirty
-2024-11-29 09:57:56,536 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0cece50>, <Task finished name='Task-11032677' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
-2024-11-29 10:27:56,728 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0ca3280>, <Task finished name='Task-11082913' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
-2024-11-29 10:57:56,920 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0ca3f70>, <Task finished name='Task-11133177' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
-2024-11-29 11:27:55,063 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0ca3c10>, <Task finished name='Task-11183406' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
-2024-11-29 11:58:03,447 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0ca3310>, <Task finished name='Task-11233661' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
-2024-11-29 11:58:05,496 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0ca34c0>, <Task finished name='Task-11233806' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
-2024-11-29 14:57:56,408 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0ca3280>, <Task finished name='Task-11535188' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
-2024-11-29 14:58:02,552 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0ca3f70>, <Task finished name='Task-11535344' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
-2024-11-29 15:57:56,792 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0ca3d30>, <Task finished name='Task-11635706' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
-2024-11-29 16:27:56,983 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xffffa0ca35e0>, <Task finished name='Task-11685963' coro=<_HTTPConnection.run() done, defined at /home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py:290> exception=TimeoutError(110, 'Connection timed out')>)
-Traceback (most recent call last):
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/ioloop.py", line 750, in _run_callback
-    ret = callback()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/simple_httpclient.py", line 340, in run
-    stream = await self.tcp_client.connect(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/tcpclient.py", line 292, in connect
-    stream = await stream.start_tls(
-  File "/home/biqu/moonraker-env/lib/python3.9/site-packages/tornado/iostream.py", line 1367, in _do_ssl_handshake
-    self.socket.do_handshake()
-  File "/usr/lib/python3.9/ssl.py", line 1309, in do_handshake
-    self._sslobj.do_handshake()
-TimeoutError: [Errno 110] Connection timed out
+2024-12-01 14:41:05,656 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.86.10
+2024-12-01 14:41:05,659 [application.py:log_request()] - 101 GET /websocket (192.168.86.10) [_TRUSTED_USER_] 6.34ms
+2024-12-01 14:41:05,660 [websockets.py:open()] - Websocket Opened: ID: 281473406735936, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
+2024-12-01 14:41:05,689 [websockets.py:_handle_identify()] - Websocket 281473406735936 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-12-01 14:46:26,339 [application.py:log_request()] - 101 GET /websocket (192.168.86.10) [_TRUSTED_USER_] 5.07ms
+2024-12-01 14:46:26,340 [websockets.py:open()] - Websocket Opened: ID: 281473378960432, Proxied: True, User Agent: PrusaSlicer, Host Name: fastalpaca.local
+2024-12-01 14:46:26,357 [websockets.py:_handle_identify()] - Websocket 281473378960432 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-12-01 14:46:32,084 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------RlIhBrfh9HY9PNU4sc7IH6
+2024-12-01 14:46:34,164 [application.py:post()] - Processing Uploaded File: Octopus_spiral_v6.gcode
+2024-12-01 14:46:34,712 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-12-01 14:46:34,999 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Octopus_spiral_v6.gcode") successfully finished
+2024-12-01 14:46:35,001 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Octopus_spiral_v6.gcode
+2024-12-01 14:46:35,037 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 2955.50ms
+2024-12-01 14:46:35,241 [job_state.py:_status_update()] - Job Started: Octopus_spiral_v6.gcode
+2024-12-01 14:46:39,318 [application.py:log_request()] - 101 GET /websocket (192.168.86.10) [_TRUSTED_USER_] 6.25ms
+2024-12-01 14:46:39,321 [websockets.py:open()] - Websocket Opened: ID: 281473407019472, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
+2024-12-01 14:46:39,331 [websockets.py:_handle_identify()] - Websocket 281473407019472 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
