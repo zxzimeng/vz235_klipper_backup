@@ -372,3 +372,4 @@ Inotify path: /home/biqu/printer_data/gcodes/Z.gcode
 Is move/copy: False
 2024-12-01 19:22:40,567 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 9794.64ms
 2024-12-01 19:22:40,578 [job_state.py:_status_update()] - Job Started: Z.gcode
+2024-12-01 20:27:14,045 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.86.10
