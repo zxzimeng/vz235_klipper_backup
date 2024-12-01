@@ -2209,3 +2209,32 @@ Y: {0.0, 190.0}
 2024-12-01 15:50:11,923 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
 2024-12-01 15:50:11,923 [printer.py:change_state()] - Adding callback for state: ready
 2024-12-01 15:50:11,937 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'error'
+2024-12-01 16:00:01,273 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-12-01 16:00:01,274 [printer.py:change_state()] - Adding callback for state: printing
+2024-12-01 16:00:01,288 [job_status.py:set_state()] - Changing job_status state from 'error' to 'printing'
+2024-12-01 16:00:01,355 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 16:00:01,572 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 16:00:01,583 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-12-01 16:00:01,600 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 14825044
+2024-12-01 16:00:01,613 [job_status.py:show_file_thumbnail()] - Z.gcode
+2024-12-01 16:06:46,296 [printer.py:change_state()] - Changing state from 'printing' to 'paused'
+2024-12-01 16:06:46,296 [printer.py:change_state()] - Adding callback for state: paused
+2024-12-01 16:06:46,308 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'paused'
+2024-12-01 16:06:46,370 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 16:06:46,598 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 16:06:46,609 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'paused'
+2024-12-01 16:06:46,627 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 14825044
+2024-12-01 16:06:46,640 [job_status.py:show_file_thumbnail()] - Z.gcode
+2024-12-01 16:06:46,652 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 16:06:46,769 [screen.py:attach_panel()] - Current panel hierarchy: job_status > extrude
+2024-12-01 16:12:34,585 [printer.py:change_state()] - Changing state from 'paused' to 'ready'
+2024-12-01 16:12:34,586 [printer.py:change_state()] - Adding callback for state: ready
+2024-12-01 16:12:41,110 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-12-01 16:12:41,111 [printer.py:change_state()] - Adding callback for state: printing
+2024-12-01 16:12:41,134 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 16:12:41,463 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 16:12:41,482 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-12-01 16:12:41,519 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 30007704
+2024-12-01 16:12:41,533 [job_status.py:show_file_thumbnail()] - Z.gcode
+2024-12-01 16:12:42,085 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 30007704
+2024-12-01 16:12:42,100 [job_status.py:show_file_thumbnail()] - Z.gcode

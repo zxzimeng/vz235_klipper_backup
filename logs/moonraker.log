@@ -261,3 +261,27 @@ Inotify path: /home/biqu/printer_data/gcodes/Z.gcode
 Is move/copy: False
 2024-12-01 15:49:45,997 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 5383.63ms
 2024-12-01 15:49:46,089 [job_state.py:_status_update()] - Job Started: Z.gcode
+2024-12-01 16:00:01,080 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Z.gcode
+2024-12-01 16:00:01,271 [job_state.py:_status_update()] - Job Started: Z.gcode
+2024-12-01 16:06:45,714 [klippy_apis.py:pause_print()] - Requesting job pause...
+2024-12-01 16:12:32,262 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------EVIEkUm7AhMJ87mWg0HIb0
+2024-12-01 16:12:34,512 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-12-01 16:12:38,946 [application.py:post()] - Processing Uploaded File: Z.gcode
+2024-12-01 16:12:39,760 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-12-01 16:12:41,030 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Z.gcode") successfully finished
+2024-12-01 16:12:41,031 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Z.gcode
+2024-12-01 16:12:41,033 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/Z.gcode
+Inotify path: /home/biqu/printer_data/gcodes/Z.gcode
+Is move/copy: False
+2024-12-01 16:12:41,069 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 8809.06ms
+2024-12-01 16:12:41,106 [job_state.py:_status_update()] - Job Started: Z.gcode
+2024-12-01 16:12:41,134 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------qpy4B8UKkSYLpHROKajW1O
+2024-12-01 16:12:46,975 [application.py:post()] - Processing Uploaded File: Z.gcode
+2024-12-01 16:12:46,997 [web.py:log_exception()] - 403 POST /server/files/upload (192.168.86.10): File is loaded, upload not permitted
+2024-12-01 16:12:47,014 [application.py:log_request()] - 403 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 5883.18ms
