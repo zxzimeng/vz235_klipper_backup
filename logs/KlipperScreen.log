@@ -2367,3 +2367,8 @@ Y: {0.0, 190.0}
 2024-12-01 19:22:41,578 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 33068907
 2024-12-01 19:22:41,592 [job_status.py:show_file_thumbnail()] - Z.gcode
 2024-12-01 19:51:16,665 [screen.py:show_screensaver()] - Showing Screensaver
+2024-12-01 22:54:54,450 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
+2024-12-01 22:54:54,450 [printer.py:change_state()] - Adding callback for state: ready
+2024-12-01 22:54:54,460 [screen.py:close_screensaver()] - Closing Screensaver
+2024-12-01 22:54:54,505 [screen.py:wake_screen()] - Screen wake up
+2024-12-01 22:54:54,530 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'complete'
