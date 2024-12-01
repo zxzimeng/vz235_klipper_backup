@@ -2172,3 +2172,40 @@ Y: {0.0, 190.0}
 2024-12-01 15:28:57,133 [job_status.py:show_file_thumbnail()] - Octopus_spiral_v6.gcode
 2024-12-01 15:28:57,142 [screen.py:show_panel()] - Reinitializing panel
 2024-12-01 15:28:57,310 [screen.py:attach_panel()] - Current panel hierarchy: job_status > extrude
+2024-12-01 15:41:26,545 [printer.py:change_state()] - Changing state from 'paused' to 'ready'
+2024-12-01 15:41:26,546 [printer.py:change_state()] - Adding callback for state: ready
+2024-12-01 15:41:29,555 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-12-01 15:41:29,556 [printer.py:change_state()] - Adding callback for state: printing
+2024-12-01 15:41:29,574 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 15:41:29,795 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 15:41:29,810 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-12-01 15:41:29,827 [job_status.py:update_file_metadata()] - Update Metadata. File: Octopus_spiral_v6.gcode Size: 10062529
+2024-12-01 15:41:29,840 [job_status.py:show_file_thumbnail()] - Octopus_spiral_v6.gcode
+2024-12-01 15:46:35,666 [screen.py:show_screensaver()] - Showing Screensaver
+2024-12-01 15:47:50,773 [printer.py:change_state()] - Changing state from 'printing' to 'paused'
+2024-12-01 15:47:50,773 [printer.py:change_state()] - Adding callback for state: paused
+2024-12-01 15:47:50,784 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'paused'
+2024-12-01 15:47:50,797 [screen.py:close_screensaver()] - Closing Screensaver
+2024-12-01 15:47:50,840 [screen.py:wake_screen()] - Screen wake up
+2024-12-01 15:47:50,856 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 15:47:51,141 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 15:47:51,159 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'paused'
+2024-12-01 15:47:51,192 [job_status.py:update_file_metadata()] - Update Metadata. File: Octopus_spiral_v6.gcode Size: 10062529
+2024-12-01 15:47:51,206 [job_status.py:show_file_thumbnail()] - Octopus_spiral_v6.gcode
+2024-12-01 15:47:51,216 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 15:47:51,351 [screen.py:attach_panel()] - Current panel hierarchy: job_status > extrude
+2024-12-01 15:49:38,066 [printer.py:change_state()] - Changing state from 'paused' to 'ready'
+2024-12-01 15:49:38,067 [printer.py:change_state()] - Adding callback for state: ready
+2024-12-01 15:49:46,092 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-12-01 15:49:46,092 [printer.py:change_state()] - Adding callback for state: printing
+2024-12-01 15:49:46,110 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 15:49:46,407 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 15:49:46,418 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-12-01 15:49:46,437 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 14825044
+2024-12-01 15:49:46,450 [job_status.py:show_file_thumbnail()] - Z.gcode
+2024-12-01 15:49:47,006 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 14825044
+2024-12-01 15:49:47,020 [job_status.py:show_file_thumbnail()] - Z.gcode
+2024-12-01 15:50:11,715 [screen.py:show_popup_message()] - error: No trigger on z after full movement
+2024-12-01 15:50:11,923 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
+2024-12-01 15:50:11,923 [printer.py:change_state()] - Adding callback for state: ready
+2024-12-01 15:50:11,937 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'error'

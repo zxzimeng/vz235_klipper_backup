@@ -234,3 +234,30 @@ Is move/copy: False
 2024-12-01 15:26:59,262 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Octopus_spiral_v6.gcode
 2024-12-01 15:26:59,430 [job_state.py:_status_update()] - Job Started: Octopus_spiral_v6.gcode
 2024-12-01 15:28:56,362 [klippy_apis.py:pause_print()] - Requesting job pause...
+2024-12-01 15:41:26,506 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-12-01 15:41:29,392 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Octopus_spiral_v6.gcode
+2024-12-01 15:41:29,552 [job_state.py:_status_update()] - Job Started: Octopus_spiral_v6.gcode
+2024-12-01 15:47:50,004 [klippy_apis.py:pause_print()] - Requesting job pause...
+2024-12-01 15:49:31,440 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------MRen2ruaaPizoHFvRX3Fdu
+2024-12-01 15:49:35,184 [application.py:post()] - Processing Uploaded File: Z.gcode
+2024-12-01 15:49:35,747 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-12-01 15:49:36,022 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Z.gcode") successfully finished
+2024-12-01 15:49:36,030 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 4592.65ms
+2024-12-01 15:49:37,903 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-12-01 15:49:40,615 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------l9q5peaHhmgd3hBSEPqijF
+2024-12-01 15:49:43,955 [application.py:post()] - Processing Uploaded File: Z.gcode
+2024-12-01 15:49:45,600 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-12-01 15:49:45,951 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Z.gcode") successfully finished
+2024-12-01 15:49:45,953 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Z.gcode
+2024-12-01 15:49:45,955 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/Z.gcode
+Inotify path: /home/biqu/printer_data/gcodes/Z.gcode
+Is move/copy: False
+2024-12-01 15:49:45,997 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 5383.63ms
+2024-12-01 15:49:46,089 [job_state.py:_status_update()] - Job Started: Z.gcode
