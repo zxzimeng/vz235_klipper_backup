@@ -2073,3 +2073,39 @@ Y: {0.0, 190.0}
 2024-12-01 14:46:35,581 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
 2024-12-01 14:46:35,597 [job_status.py:update_file_metadata()] - Update Metadata. File: Octopus_spiral_v6.gcode Size: 10089330
 2024-12-01 14:46:35,609 [job_status.py:show_file_thumbnail()] - Octopus_spiral_v6.gcode
+2024-12-01 14:55:36,466 [printer.py:change_state()] - Changing state from 'printing' to 'paused'
+2024-12-01 14:55:36,466 [printer.py:change_state()] - Adding callback for state: paused
+2024-12-01 14:55:36,481 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'paused'
+2024-12-01 14:55:36,546 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 14:55:36,765 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 14:55:36,782 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'paused'
+2024-12-01 14:55:36,804 [job_status.py:update_file_metadata()] - Update Metadata. File: Octopus_spiral_v6.gcode Size: 10089330
+2024-12-01 14:55:36,817 [job_status.py:show_file_thumbnail()] - Octopus_spiral_v6.gcode
+2024-12-01 14:55:36,828 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 14:55:36,946 [screen.py:attach_panel()] - Current panel hierarchy: job_status > extrude
+2024-12-01 14:58:13,674 [printer.py:change_state()] - Changing state from 'paused' to 'ready'
+2024-12-01 14:58:13,675 [printer.py:change_state()] - Adding callback for state: ready
+2024-12-01 14:58:17,490 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-12-01 14:58:17,490 [printer.py:change_state()] - Adding callback for state: printing
+2024-12-01 14:58:17,514 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 14:58:17,764 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 14:58:17,775 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-12-01 14:58:17,789 [job_status.py:update_file_metadata()] - Update Metadata. File: EM_Cube-Unlabeled.gcode Size: 137944
+2024-12-01 14:58:17,800 [job_status.py:show_file_thumbnail()] - EM_Cube-Unlabeled.gcode
+2024-12-01 14:58:18,437 [job_status.py:update_file_metadata()] - Update Metadata. File: EM_Cube-Unlabeled.gcode Size: 137944
+2024-12-01 14:58:18,450 [job_status.py:show_file_thumbnail()] - EM_Cube-Unlabeled.gcode
+2024-12-01 15:04:43,369 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
+2024-12-01 15:04:43,369 [printer.py:change_state()] - Adding callback for state: ready
+2024-12-01 15:04:43,386 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'complete'
+2024-12-01 15:06:27,108 [job_status.py:update_file_metadata()] - Update Metadata. File: EM_Cube-Unlabeled.gcode Size: 137761
+2024-12-01 15:06:27,120 [job_status.py:show_file_thumbnail()] - EM_Cube-Unlabeled.gcode
+2024-12-01 15:06:27,192 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-12-01 15:06:27,193 [printer.py:change_state()] - Adding callback for state: printing
+2024-12-01 15:06:27,209 [job_status.py:set_state()] - Changing job_status state from 'complete' to 'printing'
+2024-12-01 15:06:27,312 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 15:06:27,528 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 15:06:27,539 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-12-01 15:06:27,559 [job_status.py:update_file_metadata()] - Update Metadata. File: EM_Cube-Unlabeled.gcode Size: 137761
+2024-12-01 15:06:27,571 [job_status.py:show_file_thumbnail()] - EM_Cube-Unlabeled.gcode
+2024-12-01 15:06:28,089 [job_status.py:update_file_metadata()] - Update Metadata. File: EM_Cube-Unlabeled.gcode Size: 137761
+2024-12-01 15:06:28,101 [job_status.py:show_file_thumbnail()] - EM_Cube-Unlabeled.gcode

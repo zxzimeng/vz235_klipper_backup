@@ -165,3 +165,42 @@ Content-Type: multipart/form-data; boundary=------------------------RlIhBrfh9HY9
 2024-12-01 14:46:39,318 [application.py:log_request()] - 101 GET /websocket (192.168.86.10) [_TRUSTED_USER_] 6.25ms
 2024-12-01 14:46:39,321 [websockets.py:open()] - Websocket Opened: ID: 281473407019472, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
 2024-12-01 14:46:39,331 [websockets.py:_handle_identify()] - Websocket 281473407019472 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-12-01 14:55:36,019 [klippy_apis.py:pause_print()] - Requesting job pause...
+2024-12-01 14:57:52,151 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------HfuKGn0AvZ7PP3dm0cbi7w
+2024-12-01 14:57:52,197 [application.py:post()] - Processing Uploaded File: EM_Cube-Unlabeled.gcode
+2024-12-01 14:57:52,773 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-12-01 14:57:52,984 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "EM_Cube-Unlabeled.gcode") successfully finished
+2024-12-01 14:57:52,992 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 842.31ms
+2024-12-01 14:58:13,509 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-12-01 14:58:16,637 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------godg1GFDbkvoa4iFenKOMk
+2024-12-01 14:58:16,675 [application.py:post()] - Processing Uploaded File: EM_Cube-Unlabeled.gcode
+2024-12-01 14:58:17,176 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-12-01 14:58:17,377 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "EM_Cube-Unlabeled.gcode") successfully finished
+2024-12-01 14:58:17,380 [klippy_apis.py:start_print()] - Requesting Job Start, filename = EM_Cube-Unlabeled.gcode
+2024-12-01 14:58:17,381 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/EM_Cube-Unlabeled.gcode
+Inotify path: /home/biqu/printer_data/gcodes/EM_Cube-Unlabeled.gcode
+Is move/copy: False
+2024-12-01 14:58:17,423 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 787.50ms
+2024-12-01 14:58:17,486 [job_state.py:_status_update()] - Job Started: EM_Cube-Unlabeled.gcode
+2024-12-01 15:06:26,280 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------cHlxegCRi72urT9keY9icg
+2024-12-01 15:06:26,316 [application.py:post()] - Processing Uploaded File: EM_Cube-Unlabeled.gcode
+2024-12-01 15:06:26,823 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-12-01 15:06:27,035 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "EM_Cube-Unlabeled.gcode") successfully finished
+2024-12-01 15:06:27,036 [klippy_apis.py:start_print()] - Requesting Job Start, filename = EM_Cube-Unlabeled.gcode
+2024-12-01 15:06:27,038 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/EM_Cube-Unlabeled.gcode
+Inotify path: /home/biqu/printer_data/gcodes/EM_Cube-Unlabeled.gcode
+Is move/copy: False
+2024-12-01 15:06:27,077 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 798.41ms
+2024-12-01 15:06:27,188 [job_state.py:_status_update()] - Job Started: EM_Cube-Unlabeled.gcode
