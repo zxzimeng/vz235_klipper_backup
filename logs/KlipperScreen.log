@@ -2354,3 +2354,15 @@ Y: {0.0, 190.0}
 2024-12-01 18:51:15,819 [screen.py:close_screensaver()] - Closing Screensaver
 2024-12-01 18:51:15,852 [screen.py:wake_screen()] - Screen wake up
 2024-12-01 18:51:15,864 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'complete'
+2024-12-01 19:22:40,581 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-12-01 19:22:40,581 [printer.py:change_state()] - Adding callback for state: printing
+2024-12-01 19:22:40,593 [job_status.py:set_state()] - Changing job_status state from 'complete' to 'printing'
+2024-12-01 19:22:40,673 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 33068907
+2024-12-01 19:22:40,687 [job_status.py:show_file_thumbnail()] - Z.gcode
+2024-12-01 19:22:40,708 [screen.py:show_panel()] - Reinitializing panel
+2024-12-01 19:22:40,955 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-12-01 19:22:40,965 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-12-01 19:22:40,981 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 33068907
+2024-12-01 19:22:40,994 [job_status.py:show_file_thumbnail()] - Z.gcode
+2024-12-01 19:22:41,578 [job_status.py:update_file_metadata()] - Update Metadata. File: Z.gcode Size: 33068907
+2024-12-01 19:22:41,592 [job_status.py:show_file_thumbnail()] - Z.gcode

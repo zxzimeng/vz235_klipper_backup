@@ -349,3 +349,26 @@ CPU Temperature: 50.201
 2024-12-01 16:38:15,902 [websockets.py:on_close()] - Websocket Closed: ID: 281473407176320 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
 2024-12-01 17:17:13,999 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.86.10
 2024-12-01 17:17:13,999 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-12-01 19:22:30,735 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.86.10
+2024-12-01 19:22:30,774 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------S94w48JHw5KTgvLw1xhgBW
+2024-12-01 19:22:37,242 [application.py:post()] - Processing Uploaded File: Z.gcode
+2024-12-01 19:22:39,746 [proc_stats.py:_watchdog_callback()] - EVENT LOOP BLOCKED: 4.48 seconds, total blocked count: 1
+2024-12-01 19:22:39,948 [proc_stats.py:log_last_stats()] - 
+System Time: 1733080953.508173, Usage: 76.71%, Memory: 49760 kB
+System Time: 1733080954.504799, Usage: 71.39%, Memory: 49760 kB
+System Time: 1733080955.521541, Usage: 98.73%, Memory: 49760 kB
+System Time: 1733080956.523973, Usage: 90.74%, Memory: 49760 kB
+System Time: 1733080959.772603, Usage: 26.83%, Memory: 49760 kB
+2024-12-01 19:22:40,251 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-12-01 19:22:40,532 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Z.gcode") successfully finished
+2024-12-01 19:22:40,533 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Z.gcode
+2024-12-01 19:22:40,535 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/Z.gcode
+Inotify path: /home/biqu/printer_data/gcodes/Z.gcode
+Is move/copy: False
+2024-12-01 19:22:40,567 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 9794.64ms
+2024-12-01 19:22:40,578 [job_state.py:_status_update()] - Job Started: Z.gcode
