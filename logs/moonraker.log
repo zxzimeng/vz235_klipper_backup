@@ -204,3 +204,28 @@ Inotify path: /home/biqu/printer_data/gcodes/EM_Cube-Unlabeled.gcode
 Is move/copy: False
 2024-12-01 15:06:27,077 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 798.41ms
 2024-12-01 15:06:27,188 [job_state.py:_status_update()] - Job Started: EM_Cube-Unlabeled.gcode
+2024-12-01 15:14:32,379 [websockets.py:on_close()] - Websocket Closed: ID: 281473407019472 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.04
+2024-12-01 15:14:32,380 [websockets.py:on_close()] - Websocket Closed: ID: 281473406735936 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.71
+2024-12-01 15:15:04,647 [websockets.py:on_close()] - Websocket Closed: ID: 281473378960432 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.29
+2024-12-01 15:15:26,337 [application.py:prepare()] - Upload Request Received from 192.168.86.10
+Content-Type: multipart/form-data; boundary=------------------------Oo3gJON8QlSKAMRLnVL3Qx
+2024-12-01 15:15:28,393 [application.py:post()] - Processing Uploaded File: Octopus_spiral_v6.gcode
+2024-12-01 15:15:29,390 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-12-01 15:15:29,660 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Octopus_spiral_v6.gcode") successfully finished
+2024-12-01 15:15:29,662 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Octopus_spiral_v6.gcode
+2024-12-01 15:15:29,664 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/Octopus_spiral_v6.gcode
+Inotify path: /home/biqu/printer_data/gcodes/Octopus_spiral_v6.gcode
+Is move/copy: False
+2024-12-01 15:15:29,699 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.10) [_TRUSTED_USER_] 3364.48ms
+2024-12-01 15:15:29,801 [job_state.py:_status_update()] - Job Started: Octopus_spiral_v6.gcode
+2024-12-01 15:19:10,967 [application.py:log_request()] - 101 GET /websocket (192.168.86.10) [_TRUSTED_USER_] 7.26ms
+2024-12-01 15:19:10,968 [websockets.py:open()] - Websocket Opened: ID: 281473378371808, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: fastalpaca.local
+2024-12-01 15:19:10,986 [websockets.py:_handle_identify()] - Websocket 281473378371808 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-12-01 15:19:14,542 [klippy_apis.py:pause_print()] - Requesting job pause...
+2024-12-01 15:22:02,686 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-12-01 15:22:05,313 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Octopus_spiral_v6.gcode
+2024-12-01 15:22:05,560 [job_state.py:_status_update()] - Job Started: Octopus_spiral_v6.gcode
